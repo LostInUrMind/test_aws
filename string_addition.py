@@ -9,7 +9,7 @@ while True:
     if str == 'exit':
         exit()
     str_list = list(str)
-    result = None
+    result = 0
     for char in str_list:
         result = result + ord(char)
     print(f'Sum of ASCII values: {result}')
